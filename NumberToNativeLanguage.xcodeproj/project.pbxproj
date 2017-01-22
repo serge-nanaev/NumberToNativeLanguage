@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33635F9C1E34A633008BCAF3 /* NCConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33635F9B1E34A633008BCAF3 /* NCConstants.swift */; };
+		33635FA21E34B9DB008BCAF3 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33635FA11E34B9DB008BCAF3 /* Modifier.swift */; };
+		33635FA41E34BD25008BCAF3 /* Digit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33635FA31E34BD25008BCAF3 /* Digit.swift */; };
+		33635FA61E34BF4A008BCAF3 /* Ten.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33635FA51E34BF4A008BCAF3 /* Ten.swift */; };
+		33635FA81E34C0B9008BCAF3 /* Hundred.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33635FA71E34C0B9008BCAF3 /* Hundred.swift */; };
 		336A6C411E3363FC00929D13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A6C401E3363FC00929D13 /* AppDelegate.swift */; };
 		336A6C431E3363FC00929D13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A6C421E3363FC00929D13 /* ViewController.swift */; };
 		336A6C461E3363FC00929D13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336A6C441E3363FC00929D13 /* Main.storyboard */; };
 		336A6C481E3363FC00929D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336A6C471E3363FC00929D13 /* Assets.xcassets */; };
 		336A6C4B1E3363FC00929D13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336A6C491E3363FC00929D13 /* LaunchScreen.storyboard */; };
+		336A6C531E33659C00929D13 /* input.plist in Resources */ = {isa = PBXBuildFile; fileRef = 336A6C521E33659C00929D13 /* input.plist */; };
+		336A6C561E3372F400929D13 /* NumberConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A6C551E3372F400929D13 /* NumberConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33635F9B1E34A633008BCAF3 /* NCConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NCConstants.swift; path = NumberConverter/NCConstants.swift; sourceTree = "<group>"; };
+		33635FA11E34B9DB008BCAF3 /* Modifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Modifier.swift; path = NumberConverter/Modifier.swift; sourceTree = "<group>"; };
+		33635FA31E34BD25008BCAF3 /* Digit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Digit.swift; path = NumberConverter/Digit.swift; sourceTree = "<group>"; };
+		33635FA51E34BF4A008BCAF3 /* Ten.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ten.swift; path = NumberConverter/Ten.swift; sourceTree = "<group>"; };
+		33635FA71E34C0B9008BCAF3 /* Hundred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hundred.swift; path = NumberConverter/Hundred.swift; sourceTree = "<group>"; };
 		336A6C3D1E3363FC00929D13 /* NumberToNativeLanguage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberToNativeLanguage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336A6C401E3363FC00929D13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		336A6C421E3363FC00929D13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		336A6C471E3363FC00929D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336A6C4A1E3363FC00929D13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336A6C4C1E3363FC00929D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336A6C521E33659C00929D13 /* input.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = input.plist; sourceTree = "<group>"; };
+		336A6C551E3372F400929D13 /* NumberConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberConverter.swift; path = NumberConverter/NumberConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,29 @@
 		336A6C3F1E3363FC00929D13 /* NumberToNativeLanguage */ = {
 			isa = PBXGroup;
 			children = (
+				336A6C541E3372D600929D13 /* NumberConverter */,
 				336A6C401E3363FC00929D13 /* AppDelegate.swift */,
 				336A6C421E3363FC00929D13 /* ViewController.swift */,
 				336A6C441E3363FC00929D13 /* Main.storyboard */,
 				336A6C471E3363FC00929D13 /* Assets.xcassets */,
 				336A6C491E3363FC00929D13 /* LaunchScreen.storyboard */,
 				336A6C4C1E3363FC00929D13 /* Info.plist */,
+				336A6C521E33659C00929D13 /* input.plist */,
 			);
 			path = NumberToNativeLanguage;
+			sourceTree = "<group>";
+		};
+		336A6C541E3372D600929D13 /* NumberConverter */ = {
+			isa = PBXGroup;
+			children = (
+				336A6C551E3372F400929D13 /* NumberConverter.swift */,
+				33635F9B1E34A633008BCAF3 /* NCConstants.swift */,
+				33635FA11E34B9DB008BCAF3 /* Modifier.swift */,
+				33635FA31E34BD25008BCAF3 /* Digit.swift */,
+				33635FA51E34BF4A008BCAF3 /* Ten.swift */,
+				33635FA71E34C0B9008BCAF3 /* Hundred.swift */,
+			);
+			name = NumberConverter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				336A6C4B1E3363FC00929D13 /* LaunchScreen.storyboard in Resources */,
+				336A6C531E33659C00929D13 /* input.plist in Resources */,
 				336A6C481E3363FC00929D13 /* Assets.xcassets in Resources */,
 				336A6C461E3363FC00929D13 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +168,12 @@
 			files = (
 				336A6C431E3363FC00929D13 /* ViewController.swift in Sources */,
 				336A6C411E3363FC00929D13 /* AppDelegate.swift in Sources */,
+				33635FA81E34C0B9008BCAF3 /* Hundred.swift in Sources */,
+				33635F9C1E34A633008BCAF3 /* NCConstants.swift in Sources */,
+				336A6C561E3372F400929D13 /* NumberConverter.swift in Sources */,
+				33635FA21E34B9DB008BCAF3 /* Modifier.swift in Sources */,
+				33635FA61E34BF4A008BCAF3 /* Ten.swift in Sources */,
+				33635FA41E34BD25008BCAF3 /* Digit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +333,7 @@
 				336A6C511E3363FC00929D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
